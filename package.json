@@ -1,0 +1,30 @@
+{
+  "name": "rxjs-firebase",
+  "version": "1.0.0",
+  "description": "A simple RxJS interface to firebase",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kkrivera/rxjs-firebase.git"
+  },
+  "keywords": [
+    "rxjs",
+    "rx",
+    "firebase",
+    "google"
+  ],
+  "author": "Kris Rivera",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kkrivera/rxjs-firebase/issues"
+  },
+  "homepage": "https://github.com/kkrivera/rxjs-firebase#readme",
+  "dependencies": {
+    "firebase": "^4.9.0",
+    "rxjs": "^5.5.6",
+    "typescript": "^2.6.2"
+  }
+}
