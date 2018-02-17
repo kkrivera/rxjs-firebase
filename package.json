@@ -1,5 +1,5 @@
 {
-  "name": "rxjs-firebase",
+  "name": "rxjs-firebase-simple",
   "version": "1.0.0",
   "description": "A simple RxJS interface to firebase",
   "main": "dist/index.js",
@@ -7,7 +7,8 @@
   "scripts": {
     "prepublishOnly": "npm run build",
     "build": "tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publish": "npm publish --access=restricted"
   },
   "repository": {
     "type": "git",
@@ -36,5 +37,9 @@
     "typescript": "^2.7.2",
     "firebase": "^4.9.0",
     "rxjs": "^5.5.2"
-  }
+  },
+  "files": [
+    "dist/",
+    "src/"
+  ]
 }
